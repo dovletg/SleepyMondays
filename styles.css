@@ -42,3 +42,44 @@ figure, p { margin: 0; }
     position: relative;
     box-shadow: 0 0 25px rgba(97, 97, 97, .52);
 }
+
+#landing {
+  background-image: linear-gradient(to right, rgba(184, 184, 184, .26), rgba(184, 184, 184, .44));
+}
+
+#landing video {
+  z-index: -100;
+    min-width: 100%;
+    transform: scale(.5) translate(-50%, -50%);
+    filter: blur(10px);
+}
+
+#landing #content {
+  margin-top: 16vh;
+    padding-bottom: 20vh;
+}
+
+#landing button {
+  background-color: white;
+    color: #292929;
+    border: 2px solid white;
+}
+
+#landing button:hover {
+  background-color: transparent;
+    color: white;
+}
+
+#our-team { padding: 5.6rem 0; }
+#our-team img {
+    height: 270px;
+    object-fit: cover;
+}
+#our-team i { transition: opacity .2s; }
+#our-team i:hover { opacity: .5; }
+#our-team .card > div {
+    background-color: rgba(30, 30, 30, .7);
+    transform: translateX(-100%);
+    transition: transform .35s;
+}
+#our-team .card:hover > div { transform: translateX(0); }
