@@ -533,6 +533,10 @@
             </div>
       </section>
 
+      <!-- Wow js -->
+      <script src="wow/wow.min.js"></script>
+      <script src="wow/wow-activate.js"></script>
+
           <script src="initMap.js"></script>
           <script src="https://maps.googleapis.com/maps/api/js?key=DovletSyBRIN6EBUHnSy7NoBjFgjtUAIwcFoECDao&callback=initMap" async defer></script>
 
